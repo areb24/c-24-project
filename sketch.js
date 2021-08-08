@@ -17,10 +17,11 @@ function setup() {
 	world = engine.world;
 
 	ball = new Paper(400,350);
-	ball.Matter.Bodies.circle(x, y, radius,options);
+	ball.ellipse(x, y, 10,options);
 
 
 	Engine.run(engine);
+
   
 }
 
